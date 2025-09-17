@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nata Clean – Solusi Lengkap Kebersihan Modern</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <h1 class="text-lg font-bold">Nata Clean</h1>
+      <nav class="hidden md:flex gap-6 text-sm font-medium">
+        <a href="#galeri" class="nav-link">Galeri</a>
+        <a href="#testimoni" class="nav-link">Testimoni</a>
+        <a href="#kontak" class="nav-link">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="max-w-7xl mx-auto px-6 py-16 text-center fade-in">
+    <h2 class="text-4xl font-extrabold mb-4">Solusi Kebersihan Modern</h2>
+    <p class="text-gray-600 max-w-2xl mx-auto">
+      Nata Clean, solusi lengkap untuk kebersihan rumah, kantor, dan berbagai kebutuhan Anda.
+      Bersih, higienis, dan aman untuk keluarga serta lingkungan kerja.
+    </p>
+    <div class="mt-6 flex justify-center gap-4">
+      <a href="#kontak" class="btn-primary">Hubungi Kami</a>
+      <a href="#galeri" class="btn-outline">Lihat Galeri</a>
+    </div>
+  </section>
+
+  <!-- Galeri Slider -->
+  <section id="galeri" class="max-w-7xl mx-auto px-6 py-12 fade-in">
+    <h3 class="section-title">Galeri</h3>
+    <div class="relative overflow-hidden">
+      <div class="slider flex transition-transform" id="slider">
+        <div class="gallery-card"><img src="https://picsum.photos/400/300?1" alt="1"></div>
+        <div class="gallery-card"><img src="https://picsum.photos/400/300?2" alt="2"></div>
+        <div class="gallery-card"><img src="https://picsum.photos/400/300?3" alt="3"></div>
+        <div class="gallery-card"><img src="https://picsum.photos/400/300?4" alt="4"></div>
+        <div class="gallery-card"><img src="https://picsum.photos/400/300?5" alt="5"></div>
+        <div class="gallery-card"><img src="https://picsum.photos/400/300?6" alt="6"></div>
+        <div class="gallery-card"><img src="https://picsum.photos/400/300?7" alt="7"></div>
+        <div class="gallery-card"><img src="https://picsum.photos/400/300?8" alt="8"></div>
+        <div class="gallery-card"><img src="https://picsum.photos/400/300?9" alt="9"></div>
+        <div class="gallery-card"><img src="https://picsum.photos/400/300?10" alt="10"></div>
+      </div>
+      <button class="slider-btn left" id="prev">&lt;</button>
+      <button class="slider-btn right" id="next">&gt;</button>
+    </div>
+  </section>
+
+  <!-- Testimoni -->
+  <section id="testimoni" class="max-w-7xl mx-auto px-6 py-12 fade-in">
+    <h3 class="section-title">Testimoni</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="card">“Produk sangat bagus! Rumah jadi wangi dan bersih.” — <b>Siti</b></div>
+      <div class="card">“Kantor lebih higienis, tim lebih nyaman bekerja.” — <b>Budi</b></div>
+      <div class="card">“Rekomendasi banget untuk keluarga.” — <b>Maya</b></div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-2 gap-6 fade-in">
+    <div class="card text-gray-700">
+      <h4 class="text-xl font-semibold mb-3">Kontak & Lokasi</h4>
+      <ul class="space-y-2">
+        <li>☎️ +62 852-9236-0987</li>
+        <li>✉️ info@nataclean.id</li>
+      </ul>
+    </div>
+    <div class="rounded-xl overflow-hidden shadow-lg">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.0386943679437!2d110.89571407446383!3d-7.785722377257156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a310041749fdb%3A0xd89aac51f21dad60!2sNATA%20KREATIF!5e0!3m2!1sen!2sid!4v1758124315562!5m2!1sen!2sid" class="w-full h-64 border-0"></iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t py-6 text-center text-sm text-gray-500 fade-in">
+    © 2025 Nata Creative — Nata Clean.
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/6285292360987?text=Halo%20Nata%20Clean" target="_blank" class="whatsapp-float">
+    <span class="whatsapp-icon"></span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
